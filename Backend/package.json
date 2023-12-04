@@ -4,7 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest test --coverage --detectOpenHandles",
+    "test": "jest ./test/ --coverage --detectOpenHandles",
     "start": "nodemon server.js",
     "serverStart": "sudo ~/.nvm/versions/node/v21.0.0/bin/node ~/project/https_test.js"
   },
